@@ -7,7 +7,7 @@ RUN mvn clean package
 
 # Use the official Tomcat image to run the application
 FROM tomcat:9.0
-COPY --from=build /app/target/hellojava.war /usr/local/tomcat/webapps/
+COPY --from=build /app/target/hellotomcat.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
