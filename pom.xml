@@ -18,7 +18,7 @@
     </dependencies>
 
     <build>
-        <finalName>hellojava</finalName>
+        <finalName>hellotomcat</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
