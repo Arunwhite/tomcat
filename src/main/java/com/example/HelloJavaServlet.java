@@ -13,7 +13,7 @@ public class HelloJavaServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().println("<h1>Hello, Java!</h1>");
+        response.getWriter().println("<h1>Hello, Tomcat!</h1>");
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
